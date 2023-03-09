@@ -1,0 +1,221 @@
+#skills{
+    display: grid;
+    padding-top: 3rem;
+   
+  
+}
+#identificador{
+    font-family:"Poppins";
+    font-size: 32px;
+    font-weight: 700;
+}
+span{ 
+    font-family: 'Raleway','Roboto';
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 12px;
+    color:#fff;
+    display:block;
+    line-height: 1.1;
+    padding: 0 13px;
+    position: relative;
+}
+
+
+#sobre-mi{
+    
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    padding: 3rem;
+    
+    
+}
+
+#MiExperiencia{
+    font-family: "Raleway";
+    padding-top:3rem;
+    padding-bottom: 3rem;
+   
+}
+#avatar{
+    float: center;
+    shape-outside: circle();
+    clip-path: circle();
+   
+ 
+}
+.mis_servicios{
+    padding: 3rem;
+    color:#151719;
+
+   
+}
+.mis_servicios h3{
+     color: #fff;
+}
+#mis_servicios{
+    float: center;
+    color:#151719;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: #fbc512;
+ 
+}
+#MiExperiencia h2{
+    font-family: 'Tilt Neon', 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+}
+#MisultimosTrabajos{
+   padding: 30px;
+    font-family: 'Tilt Neon', 'Poppins';
+    color:#151719;
+
+   
+}
+#MisultimosTrabajos h2 {
+
+color:#fff
+}
+
+#redes{
+    font-family: "Raleway";
+    font-size: 16px;
+    float:right;
+   
+   
+}
+
+#presentavc{
+   
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  
+}
+
+
+footer{
+    font-family: 'Raleway','Poppins';
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 4rem;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+span::before{
+    background: linear-gradient(90deg,var(--start-color),var(--end-color));
+    content:var(--content);
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated 9s infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes animated{
+    0%, 16.667%, 100%{
+        opacity: 1;
+    }
+    33.333%, 83.333%{
+        opacity: 0;
+    }
+}
+
+.div{
+    margin-top: 4.5rem;
+    height: 20rem;
+    width: 20rem;
+    background: radial-gradient(circle at 33% 100%,
+    #fed373 4%,
+    #f15234 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,#515ecf);
+    border-radius: 30%;
+    position: relative;
+}
+.container{
+    padding-top: 3.5rem;
+}
+
+span1{
+    content: '';
+    border-radius: 20%;
+    width: 15rem;
+    height: 15rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    ;
+}
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  .nav-link{
+    font-size: 20px;
+  }
+  .navbar-brand{
+    font-size: 24px;
+    font-family: 'Raleway';
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+body{
+    background-image:-webkit-image-set(url("/assets/img/space.jpg"));
+    background-image: linear-gradient( to bottom,
+    rgba(0, 3, 3, 0.5),rgba(32, 135, 231, 0.5)), url("/assets/img/space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            150px,
+            1fr
+        )
+        gap(16px)
+    );
+}
+.card-shadow{
+    color: #fff;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.card-shadow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
