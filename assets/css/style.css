@@ -134,11 +134,6 @@ span::before{
     margin-top: 4.5rem;
     height: 20rem;
     width: 20rem;
-    background: radial-gradient(circle at 33% 100%,
-    #fed373 4%,
-    #aeaaff 40%,
-    #d92e7f 42%,
-    #9b36b7 85%,#515ecf);
     border-radius: 30%;
     position: relative;
 }
